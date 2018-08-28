@@ -6,8 +6,6 @@
 > douyin-sign 是使用GO写的基于抖音Android客户端的接口签名算法，[视频演示](http://yxshare.oss-cn-hangzhou.aliyuncs.com/flyoffline/%E6%8A%96%E9%9F%B3%E8%A7%86%E9%A2%91%E6%BC%94%E7%A4%BA.mp4)
 
 + 不想了解算法或者看不懂GO代码的朋友可以使用[douyin-demo](https://github.com/sweet8-asia/douyin-sign)
-+ 无水印视频批量下载:[https://app886.cn/douyin_video](https://app886.cn/douyin_video)
-+ 不想自己管算法？直接使用在线签名服务：[https://app886.cn/douyin/service](https://app886.cn/douyin/service)
 
 >大家可以围观作者的另一款产品：[马上下——在线磁力链下载服务](https://wapp.flyoffline.com/)
 
