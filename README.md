@@ -1,12 +1,7 @@
-
->温馨提醒：
-
-*抖音7月12日发布了v2.0.0的版本，加了一个策略：如果你登录过一个较大的版本号(比如1.9.8)，那么再登录回较低的版本号（1.7.2），会提示“为确保账户安全，请升级最新版本进行操作”。*
-
 > douyin-sign 是使用GO写的基于抖音Android客户端的接口签名算法，[视频演示](http://yxshare.oss-cn-hangzhou.aliyuncs.com/flyoffline/%E6%8A%96%E9%9F%B3%E8%A7%86%E9%A2%91%E6%BC%94%E7%A4%BA.mp4)
 
-+ 不想了解算法或者看不懂GO代码的朋友可以使用[douyin-demo](https://github.com/sweet8-asia/douyin-demo)
-——————————————————————
+> 不想了解算法或者看不懂GO代码的朋友可以使用[douyin-demo](https://github.com/sweet8-asia/douyin-demo)
+
 
 >首先[这里有一篇关于Android逆向工程的文章](http://www.520monkey.com/archives/1081)，反编译了抖音的libuserinfo.so文件的种种加密入口限制，使得自己的Android程序可以调用该so文件直接加密校验。这样的效果就是无需真正意义破解加密算法。
 
