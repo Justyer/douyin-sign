@@ -1,5 +1,6 @@
 Tiktik service demo is here [https://github.com/CrawlData/tiktok-sign](https://github.com/CrawlData/tiktok-sign)
 
+## 关于抖音签名协议
 
 + douyin-sign 是使用GO写的基于抖音Android客户端的接口签名算法，[视频演示](http://yxshare.oss-cn-hangzhou.aliyuncs.com/flyoffline/%E6%8A%96%E9%9F%B3%E8%A7%86%E9%A2%91%E6%BC%94%E7%A4%BA.mp4)
 
