@@ -15,7 +15,7 @@ import (
 	"math/rand"
 	"crypto/md5"
 )
-// 这里的隐藏Key请加我QQ：3126139206，你得看得懂go的代码再索取，我这边不帮忙翻译到其他语言的。
+// 这里的隐藏Key请加我QQ：2633757493，你得看得懂go的代码再索取，我这边不帮忙翻译到其他语言的。
 const HIDDEN_RSTR = "AAAAAAAA"
 const HIDDEN_ORDER1 = "00000000"
 const HIDDEN_ORDER2 = "00000000"
