@@ -1,4 +1,16 @@
+# 抖音签名服务
+
 Tiktik[抖音国外版] service demo is here [https://github.com/CrawlData/tiktok-sign](https://github.com/CrawlData/tiktok-sign)
+
+这里演示抖音签名服务，如何生成新版的as、mas签名字段。每个接口可测试20次，如需更多使用，请发邮件到：hello@crawldata.app
+`
+curl --request POST \
+  --url http://crawldata.app/api/douyin/v2/sign \
+  --header 'Content-Type: application/json' \
+  --header 'Postman-Token: 72a11938-d723-430d-ba77-e340f2580cbe' \
+  --header 'cache-control: no-cache' \
+  --data '{"url":"https://api.amemv.com/aweme/v1/aweme/post/?user_id=83774364341&max_cursor=0&count=20&source=video_search&app_type=normal&manifest_version_code=201&_rticket=1540307722505&ac=wifi&device_id=52650937206&iid=47182912991&os_version=8.1.0&channel=wandoujia&version_code=201&device_type=ONEPLUS%20A5000&language=zh&uuid=866265035315870&resolution=1080*1920&openudid=4617150637217100&update_version_code=2003&app_name=aweme&version_name=2.0.1&os_api=27&device_brand=OnePlus&ssmix=a&device_platform=android&dpi=420&aid=1128"}'
+`
 
 ## 关于抖音签名协议
 
