@@ -2,7 +2,8 @@
 
 Tiktik[抖音国外版] service demo is here [https://github.com/CrawlData/tiktok-sign](https://github.com/CrawlData/tiktok-sign)
 
-这里演示抖音签名服务，如何生成新版的as、mas签名字段。每个接口可测试20次，如需更多使用，请发邮件到：hello@crawldata.app
+这里演示抖音签名服务，如何生成新版的as、mas签名字段。每个接口可测试20次，如需更多使用，请发邮件到：**hello@crawldata.app
+
 `
 curl --request POST \
   --url http://crawldata.app/api/douyin/v2/sign \
