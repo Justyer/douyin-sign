@@ -3,15 +3,60 @@
 
 >任何接口只能测试20次，更多请加QQ：**2633757493**，并描述清晰您的用途。
 
-## 一、AS、MAS签名版本【2.0后新版】
+## 一、AS、MAS签名版本【2.0~最新版】
 2.0后，采用as、mas签名，cp字段实际测试发现无效。
-#### 1、生成as、mas签名
+10月9日测试V3.2.1有效。
+当前测试3.2.1可正常使用。
+#### 0、生成as、mas签名
 ```
 curl --request POST \
   --url https://crawldata.app/api/douyin/v2/sign \
   --header 'Content-Type: application/json' \
   --data '{"url":"https://api.amemv.com/aweme/v1/aweme/post/?user_id=83774364341&max_cursor=0&count=20&source=video_search&app_type=normal&manifest_version_code=201&_rticket=1540307722505&ac=wifi&device_id=52650937206&iid=47182912991&os_version=8.1.0&channel=wandoujia&version_code=201&device_type=ONEPLUS%20A5000&language=zh&uuid=866265035315870&resolution=1080*1920&openudid=4617150637217100&update_version_code=2003&app_name=aweme&version_name=2.0.1&os_api=27&device_brand=OnePlus&ssmix=a&device_platform=android&dpi=420&aid=1128"}'
 ```
+
+#### 1、首页动态流
+
+[https://crawldata.app/api/douyin/v2/feed](https://crawldata.app/api/douyin/v2/feed)
+
+#### 2、某人的视频列表
+
+[https://crawldata.app/api/douyin/v2/aweme/post?user_id=83774364341&max_cursor=0&count=20
+](https://crawldata.app/api/douyin/v2/aweme/post?user_id=83774364341&max_cursor=0&count=20)
+
+#### 3、某人的喜欢列表
+
+[https://crawldata.app/api/douyin/v2/aweme/favorite?user_id=83774364341&max_cursor=0&count=20
+](https://crawldata.app/api/douyin/v2/aweme/favorite?user_id=83774364341&max_cursor=0&count=20)
+
+#### 4、某人的个人信息
+
+[https://crawldata.app/api/douyin/v2/user?user_id=83774364341](https://crawldata.app/api/douyin/v1/user?user_id=83774364341)
+
+#### 5、某人关注的人列表
+
+[https://crawldata.app/api/douyin/v2/user/following/list?user_id=83774364341&max_time=1541202996](https://crawldata.app/api/douyin/v2/user/following/list?user_id=83774364341&max_time=1541202996)
+
+第一页max_time为当前时间轴，下一页通过上一页的返回数据获取新的max_time
+
+#### 6、某人的粉丝列表
+
+[https://crawldata.app/api/douyin/v2/user/follower/list?user_id=83774364341&max_time=1541473941](https://crawldata.app/api/douyin/v2/user/follower/list?user_id=83774364341&max_time=1541473941)
+
+第一页max_time为当前时间轴，下一页通过上一页的返回数据获取新的max_time
+
+#### 7、某个视频的评论
+
+[https://crawldata.app/api/douyin/v2/comment/list?aweme_id=6615981222587796743&cursor=0](https://crawldata.app/api/douyin/v2/comment/list?aweme_id=6615981222587796743&cursor=0)
+
+#### 8、某人的商品橱窗
+
+[https://crawldata.app/api/douyin/v2/user/promotions?user_id=93712507975&cursor=0](https://crawldata.app/api/douyin/v2/user/promotions?user_id=93712507975&cursor=0)
+
+#### 9、直播房间列表
+
+[https://crawldata.app/api/douyin/v2/room/feed?cursor=0](https://crawldata.app/api/douyin/v2/room/feed?cursor=0)
+第二页cursor传递1，以此类推
 
 ## 二、AS、CP签名版本【2.0前旧版】
 2.0前的签名算法，可用于数据抓取
