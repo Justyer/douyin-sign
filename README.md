@@ -1,7 +1,7 @@
 > **[抖音国外版] Tiktik/Musical.ly service demo is here [https://github.com/CrawlData/tiktok-sign](https://github.com/CrawlData/tiktok-sign)**
 
 
->任何接口只能测试20次，更多请发邮件到：**hello@crawldata.app**，并描述清晰您的用途。
+>任何接口只能测试20次，更多请加QQ：**2633757493**，并描述清晰您的用途。
 
 ## 一、AS、MAS签名版本【2.0后新版】
 2.0后，采用as、mas签名，cp字段实际测试发现无效。
@@ -49,6 +49,7 @@ curl --request POST \
 
 [https://crawldata.app/api/douyin/v1/comment/list?aweme_id=6615981222587796743&cursor=0](https://crawldata.app/api/douyin/v1/comment/list?aweme_id=6615981222587796743&cursor=0)
 
+> 核心签名算法代码在main.go文件中，但是关键字段被隐藏，需要请联系我，qq：2633757493
 
 # 三、抖音签名协议逆向过程
 
@@ -71,7 +72,7 @@ curl --request POST \
 ![截图1](http://yxshare.oss-cn-hangzhou.aliyuncs.com/Screen%20Shot%202018-05-21%20at%2022.05.07.png)
 
 > 以上演示的是as、cp版本的算法加密过程。
-> 我的邮箱是:hello@crawldata.app
+> 我的QQ是:2633757493
 
 
 
