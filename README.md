@@ -5,7 +5,7 @@
 
 ## 一、AS、MAS签名版本【2.0~最新版】
 2.0后，采用as、mas签名，cp字段实际测试发现无效。
-10月9日测试V3.2.1有效。
+10月9日测试最新版**3.2.1**有效。
 当前测试3.2.1可正常使用。
 #### 0、生成as、mas签名
 ```
@@ -59,7 +59,7 @@ curl --request POST \
 第二页cursor传递1，以此类推
 
 ## 二、AS、CP签名版本【2.0前旧版】
-2.0前的签名算法，可用于数据抓取
+2.0前的签名算法，可用于数据抓取。签名算法代码在[main.go](https://github.com/CrawlData/douyin-sign/blob/master/main.go)文件中，但是关键字段被隐藏，需要请联系我，qq：2633757493
 #### 1、首页动态流
 
 [https://crawldata.app/api/douyin/v1/feed](https://crawldata.app/api/douyin/v1/feed)
@@ -94,7 +94,6 @@ curl --request POST \
 
 [https://crawldata.app/api/douyin/v1/comment/list?aweme_id=6615981222587796743&cursor=0](https://crawldata.app/api/douyin/v1/comment/list?aweme_id=6615981222587796743&cursor=0)
 
-> 核心签名算法代码在main.go文件中，但是关键字段被隐藏，需要请联系我，qq：2633757493
 
 # 三、抖音签名协议逆向过程
 
