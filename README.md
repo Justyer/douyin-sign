@@ -1,3 +1,34 @@
+## 概述
+抖音版本更新非常快，但是实际使用的签名算法主要分为两种：
+
+1. as和cp，2.0前的app版本使用，当前该算法仍然可用
+2. as和mas，2.0后的app版本使用，当前app版本已更新到3.2.1，仍使用该算法
+
+## 国际版算法
+Tiktik/Musical.ly service is here: [https://github.com/CrawlData/tiktok-sign](https://github.com/CrawlData/tiktok-sign)
+
+## 抖音算法演示
+所有接口只能测试20次，更多请加QQ：**2633757493**，并描述清晰您的用途。
+
+```
+以下所有请求基于，所有链接可点击测试：
+https://crawldata.app/api/douyin
+```
+
+| | as、cp版本  | as、mas版本 |
+| ------------- | ------------- | ------------- |
+| 首页动态  | [/v2/feed](https://crawldata.app/api/douyin/v2/feed)  | [/v1/feed](https://crawldata.app/api/douyin/v1/feed)  |
+| 视频列表  | [/v2/aweme/post?user_id=83774364341](https://crawldata.app/api/douyin/v2/aweme/post?user_id=83774364341&max_cursor=0&count=20)  | [/v1/aweme/post?user_id=83774364341](https://crawldata.app/api/douyin/v1/aweme/post?user_id=83774364341&max_cursor=0&count=20)  |
+| 喜欢列表  | [/v2/aweme/favorite?user_id=83774364341](https://crawldata.app/api/douyin/v2/aweme/favorite?user_id=83774364341&max_cursor=0&count=20)  | [/v1/aweme/favorite?user_id=83774364341](https://crawldata.app/api/douyin/v1/aweme/favorite?user_id=83774364341&max_cursor=0&count=20)  |
+| 个人信息  | [/v2/user?user_id=83774364341](https://crawldata.app/api/douyin/v1/user?user_id=83774364341)  | [/v1/user?user_id=83774364341](https://crawldata.app/api/douyin/v1/user?user_id=83774364341)|
+| 关注列表  | [/v2/user/following/list?user_id=83774364341&max_time=1541202996](https://crawldata.app/api/douyin/v2/user/following/list?user_id=83774364341&max_time=1541202996)  | [/v1/user/following/list?user_id=83774364341](https://crawldata.app/api/douyin/v1/user/following/list?user_id=83774364341&max_time=1541202996)  |
+| 粉丝列表  | [/v2/user/follower/list?user_id=83774364341&max_time=1541473941](https://crawldata.app/api/douyin/v2/user/follower/list?user_id=83774364341&max_time=1541473941)  | [/v1/user/follower/list?user_id=83774364341](https://crawldata.app/api/douyin/v1/user/follower/list?user_id=83774364341&max_time=1541473941)  |
+| 视频评论  | [/v2/comment/list?aweme_id=6615981222587796743](https://crawldata.app/api/douyin/v2/comment/list?aweme_id=6615981222587796743&cursor=0)  | [/v1/comment/list?aweme_id=6615981222587796743](https://crawldata.app/api/douyin/v1/comment/list?aweme_id=6615981222587796743&cursor=0)  |
+| 商品橱窗  | [/v2/user/promotions?user_id=93712507975](https://crawldata.app/api/douyin/v2/user/promotions?user_id=93712507975&cursor=0)  |   |
+| 直播列表  | [/v2/room/feed?cursor=0](https://crawldata.app/api/douyin/v2/room/feed?cursor=0)  |   |
+
+
+
 > **[抖音国外版] Tiktik/Musical.ly service demo is here [https://github.com/CrawlData/tiktok-sign](https://github.com/CrawlData/tiktok-sign)**
 
 
