@@ -8,7 +8,7 @@
 #### 1、生成as、mas签名
 ```
 curl --request POST \
-  --url http://crawldata.app/api/douyin/v2/sign \
+  --url https://crawldata.app/api/douyin/v2/sign \
   --header 'Content-Type: application/json' \
   --data '{"url":"https://api.amemv.com/aweme/v1/aweme/post/?user_id=83774364341&max_cursor=0&count=20&source=video_search&app_type=normal&manifest_version_code=201&_rticket=1540307722505&ac=wifi&device_id=52650937206&iid=47182912991&os_version=8.1.0&channel=wandoujia&version_code=201&device_type=ONEPLUS%20A5000&language=zh&uuid=866265035315870&resolution=1080*1920&openudid=4617150637217100&update_version_code=2003&app_name=aweme&version_name=2.0.1&os_api=27&device_brand=OnePlus&ssmix=a&device_platform=android&dpi=420&aid=1128"}'
 ```
