@@ -14,7 +14,7 @@ curl --request POST \
 ```
 
 ## 二、AS、CP签名版本【2.0前旧版】
-
+2.0前的签名算法，可用于数据抓取
 #### 1、首页动态流
 
 [https://crawldata.app/api/douyin/v1/feed](https://crawldata.app/api/douyin/v1/feed)
