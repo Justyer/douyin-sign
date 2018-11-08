@@ -1,4 +1,4 @@
-> **Tiktik[抖音国外版] service demo is here [https://github.com/CrawlData/tiktok-sign](https://github.com/CrawlData/tiktok-sign)**
+> **[抖音国外版] Tiktik/Musical.ly service demo is here [https://github.com/CrawlData/tiktok-sign](https://github.com/CrawlData/tiktok-sign)**
 
 
 >任何接口只能测试20次，更多请发邮件到：**hello@crawldata.app**，并描述清晰您的用途。
