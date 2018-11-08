@@ -35,11 +35,11 @@ curl --request POST \
 
 #### 5、某人关注的人列表
 
-[https://crawldata.app/api/douyin/v1/user/following/list?user_id=83774364341](https://crawldata.app/api/douyin/v1/user/following/list?user_id=83774364341)
+[https://crawldata.app/api/douyin/v1/user/following/list?user_id=83774364341&max_time=1541202996](https://crawldata.app/api/douyin/v1/user/following/list?user_id=83774364341&max_time=1541202996)
 
 #### 6、某人的粉丝列表
 
-[https://crawldata.app/api/douyin/v1/user/follower/list?user_id=83774364341](https://crawldata.app/api/douyin/v1/user/follower/list?user_id=83774364341)
+[https://crawldata.app/api/douyin/v1/user/follower/list?user_id=83774364341&max_time=1541473941](https://crawldata.app/api/douyin/v1/user/follower/list?user_id=83774364341&max_time=1541473941)
 
 #### 7、某个视频的评论
 
