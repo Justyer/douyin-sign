@@ -1,3 +1,4 @@
+# AS、MAS签名版本 
 ## 抖音签名服务
 
 Tiktik[抖音国外版] service demo is here [https://github.com/CrawlData/tiktok-sign](https://github.com/CrawlData/tiktok-sign)
@@ -11,6 +12,7 @@ curl --request POST \
   --data '{"url":"https://api.amemv.com/aweme/v1/aweme/post/?user_id=83774364341&max_cursor=0&count=20&source=video_search&app_type=normal&manifest_version_code=201&_rticket=1540307722505&ac=wifi&device_id=52650937206&iid=47182912991&os_version=8.1.0&channel=wandoujia&version_code=201&device_type=ONEPLUS%20A5000&language=zh&uuid=866265035315870&resolution=1080*1920&openudid=4617150637217100&update_version_code=2003&app_name=aweme&version_name=2.0.1&os_api=27&device_brand=OnePlus&ssmix=a&device_platform=android&dpi=420&aid=1128"}'
 ```
 
+# AS、CP签名版本
 ## 关于抖音签名协议
 
 + douyin-sign 是使用GO写的基于抖音Android客户端的接口签名算法，[视频演示](http://yxshare.oss-cn-hangzhou.aliyuncs.com/flyoffline/%E6%8A%96%E9%9F%B3%E8%A7%86%E9%A2%91%E6%BC%94%E7%A4%BA.mp4)
