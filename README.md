@@ -37,9 +37,13 @@ curl --request POST \
 
 [https://crawldata.app/api/douyin/v1/user/following/list?user_id=83774364341&max_time=1541202996](https://crawldata.app/api/douyin/v1/user/following/list?user_id=83774364341&max_time=1541202996)
 
+第一页max_time为当前时间轴，下一页通过上一页的返回数据获取新的max_time
+
 #### 6、某人的粉丝列表
 
 [https://crawldata.app/api/douyin/v1/user/follower/list?user_id=83774364341&max_time=1541473941](https://crawldata.app/api/douyin/v1/user/follower/list?user_id=83774364341&max_time=1541473941)
+
+第一页max_time为当前时间轴，下一页通过上一页的返回数据获取新的max_time
 
 #### 7、某个视频的评论
 
