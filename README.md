@@ -5,11 +5,11 @@
 
 1. as和cp，2.0前的app版本使用，当前该算法仍然可用。可用于数据抓取、深度学习分析。算法代码在[main.go](https://github.com/CrawlData/douyin-sign/blob/master/main.go)文件中，但是关键字段被隐藏，需要请联系作者。
 
-2. as和mas，2.0后的app版本使用，当前app版本已更新到3.2.1，仍使用该算法。
+2. as和mas，2.0后的app版本使用，当前app版本已更新到*3.2.1*，仍使用该算法。
 
 
 ## 抖音算法演示
-**所有演示接口只能测试20次，更多需求QQ联系：2633757493，邮件正文至少50个汉字描述清晰您的用途。**
+**所有演示接口只能测试20次，更多需求QQ联系：2633757493，请至少50个汉字描述清晰您的用途。**
 
 所有演示请求基于以下服务地址：
 
@@ -32,7 +32,7 @@ curl -X "POST" "https://crawldata.app/api/douyin/v2/sign" \
 
 #### 3. 常用API演示：
 
-| | as、mas版本  | as、cp版本 |
+| | 2.0前 as、mas版本  | 2.0后 as、cp版本 |
 | ------------- | ------------- | ------------- |
 | 首页动态  | [/v2/feed](https://crawldata.app/api/douyin/v2/feed)  | [/v1/feed](https://crawldata.app/api/douyin/v1/feed)  |
 | 视频列表  | [/v2/aweme/post?user_id=83774364341](https://crawldata.app/api/douyin/v2/aweme/post?user_id=83774364341&max_cursor=0&count=20)  | [/v1/aweme/post?user_id=83774364341](https://crawldata.app/api/douyin/v1/aweme/post?user_id=83774364341&max_cursor=0&count=20)  |
