@@ -43,6 +43,9 @@ curl -X "POST" "https://crawldata.app/api/douyin/v2/sign" \
 | 视频评论  | [/v2/comment/list?aweme_id=6615981222587796743](https://crawldata.app/api/douyin/v2/comment/list?aweme_id=6615981222587796743&cursor=0)  | [/v1/comment/list?aweme_id=6615981222587796743](https://crawldata.app/api/douyin/v1/comment/list?aweme_id=6615981222587796743&cursor=0)  |
 | 商品橱窗  | [/v2/user/promotions?user_id=93712507975](https://crawldata.app/api/douyin/v2/user/promotions?user_id=93712507975&cursor=0)  |   |
 | 直播列表  | [/v2/room/feed?cursor=0](https://crawldata.app/api/douyin/v2/room/feed?cursor=0)  |   |
+| 获取广告  | [获取广告代码演示](https://github.com/CrawlData/douyin-ads)  |   |
+
+
 
 ## 抖音签名协议逆向过程（as、cp）
 
