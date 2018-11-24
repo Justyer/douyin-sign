@@ -68,7 +68,7 @@ curl -X "POST" "https://crawldata.app/api/douyin/v2/sign" \
 ![截图1](http://yxshare.oss-cn-hangzhou.aliyuncs.com/Screen%20Shot%202018-05-21%20at%2022.05.07.png)
 
 > 以上演示的是as、cp版本的算法加密过程。
-> 我的QQ是:2633757493
+> 我的Email是:crawldata@yandex.com
 
 
 
