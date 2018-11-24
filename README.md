@@ -9,7 +9,7 @@
 
 
 ## 抖音算法演示
-**所有演示接口只能测试20次，更多需求Email联系：crawldata@yandex.com，请至少50个汉字描述清晰您的用途（不要废话）。**
+**所有演示接口只能测试20次，更多需求Email联系：hello@crawldata.app，请至少50个汉字描述清晰您的用途（不要废话）。**
 
 所有演示请求基于以下服务地址：
 
@@ -68,7 +68,7 @@ curl -X "POST" "https://crawldata.app/api/douyin/v2/sign" \
 ![截图1](http://yxshare.oss-cn-hangzhou.aliyuncs.com/Screen%20Shot%202018-05-21%20at%2022.05.07.png)
 
 > 以上演示的是as、cp版本的算法加密过程。
-> 我的Email是:crawldata@yandex.com
+> 我的Email是:hello@crawldata.app
 
 
 
