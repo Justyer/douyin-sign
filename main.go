@@ -15,7 +15,7 @@ import (
 	"math/rand"
 	"crypto/md5"
 )
-// 隐藏Key请Email我：crawldata@yandex.com。本代码是基于as、cp的签名算法，as、mas同样可以联系作者。
+// 隐藏Key请Email我：hello@crawldata.app。本代码是基于as、cp的签名算法，as、mas同样可以联系作者。
 const HIDDEN_RSTR = "AAAAAAAA"
 const HIDDEN_ORDER1 = "00000000"
 const HIDDEN_ORDER2 = "00000000"
