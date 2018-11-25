@@ -3,7 +3,7 @@
 ## 关于抖音签名算法
 抖音版本更新非常快，但是实际使用的签名算法主要分为两种：
 
-1. as和cp，2.0前的app版本使用，当前该算法仍然可用。可用于数据抓取、深度学习分析。算法代码在[main.go](https://github.com/CrawlData/douyin-sign/blob/master/main.go)文件中，但是关键字段被隐藏，需要请联系作者。**粉丝数相关数据已脏，仍然可用于视频爬取**
+1. as和cp，2.0前的app版本使用，当前该算法仍然可用。可用于数据抓取、深度学习分析。算法代码在[main.go](https://github.com/CrawlData/douyin-sign/blob/master/main.go)文件中，但是关键字段被隐藏，需要请联系作者。**as、cp版本粉丝数相关数据已脏，仍然可用于视频爬取**
 
 2. as和mas，2.0后的app版本使用，当前app版本已更新到*3.2.1*，仍使用该算法。
 
