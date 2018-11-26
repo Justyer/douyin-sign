@@ -1,4 +1,5 @@
 > 国际版 Tiktik/Musical.ly service is here: [https://github.com/CrawlData/tiktok-sign](https://github.com/CrawlData/tiktok-sign)
+
 > as、cp版本仍旧有效
 
 ## 关于抖音签名算法
