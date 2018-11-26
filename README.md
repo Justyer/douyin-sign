@@ -10,7 +10,7 @@
 
 1. as和cp，2.0前的app版本使用，当前该算法仍然可用。可用于数据抓取、深度学习分析。算法代码在[main.go](https://github.com/CrawlData/douyin-sign/blob/master/main.go)文件中，但是关键字段被隐藏，需要请联系作者。
 
-2. as和mas，2.0后的app版本使用，当前app版本已更新到*3.2.1*，仍使用该算法。
+2. as和mas，2.0后的app版本使用，当前app版本已更新到*3.4.0*，仍使用该算法。
 
 
 ## 抖音算法演示
