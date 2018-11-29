@@ -50,12 +50,12 @@ curl -X "POST" "https://crawldata.app/api/douyin/v2/sign" \
 | 商品橱窗  | [/v2/user/promotions](https://crawldata.app/api/douyin/v2/user/promotions?user_id=93712507975&cursor=0)  |   |
 | 直播列表  | [/v2/room/feed](https://crawldata.app/api/douyin/v2/room/feed?cursor=0)  |   |
 | 获取广告  | [获取广告代码演示](https://github.com/CrawlData/douyin-ads)  |   |
-| 热门话题 | [/v2/category/list](https://crawldata.app/api/douyin/v2/category/list?cursor=0)  | |
-| 话题视频| [v2/challenge/aweme](https://crawldata.app/api/douyin/v2/challenge/aweme?ch_id=1617915729448973&cursor=0)  | |
-| 话题详情| [v2/challenge/detail](https://crawldata.app/api/douyin/v2/challenge/detail?ch_id=1617915729448973)  | |
-| 搜索用户| [v2/search/discover](https://crawldata.app/api/douyin/v2/search/discover?keyword=lucas&cursor=0)  | |
-| 搜索音乐| [v2/search/music](https://crawldata.app/api/douyin/v2/search/music?keyword=lucas&cursor=0)  | |
-| 搜索话题| [v2/search/challenge](https://crawldata.app/api/douyin/v2/search/challenge?keyword=lucas&cursor=0)  | |
+| 热门话题 | [/v2/category/list](https://crawldata.app/api/douyin/v2/category/list?cursor=0)  | [/v1/category/list](https://crawldata.app/api/douyin/v1/category/list?cursor=0)   |
+| 话题视频| [v2/challenge/aweme](https://crawldata.app/api/douyin/v2/challenge/aweme?ch_id=1617915729448973&cursor=0)  | [v1/challenge/aweme](https://crawldata.app/api/douyin/v1/challenge/aweme?ch_id=1617915729448973&cursor=0)   |
+| 话题详情| [v2/challenge/detail](https://crawldata.app/api/douyin/v2/challenge/detail?ch_id=1617915729448973)  | [v1/challenge/detail](https://crawldata.app/api/douyin/v1/challenge/detail?ch_id=1617915729448973)   |
+| 搜索用户| [v2/search/discover](https://crawldata.app/api/douyin/v2/search/discover?keyword=lucas&cursor=0)  | [v1/search/discover](https://crawldata.app/api/douyin/v1/search/discover?keyword=lucas&cursor=0) |
+| 搜索音乐| [v2/search/music](https://crawldata.app/api/douyin/v2/search/music?keyword=lucas&cursor=0)  | [v1/search/music](https://crawldata.app/api/douyin/v1/search/music?keyword=lucas&cursor=0) |
+| 搜索话题| [v2/search/challenge](https://crawldata.app/api/douyin/v2/search/challenge?keyword=lucas&cursor=0)  | [v1/search/challenge](https://crawldata.app/api/douyin/v1/search/challenge?keyword=lucas&cursor=0) |
 | 搜索视频| [v2/search/item](https://crawldata.app/api/douyin/v2/search/item?keyword=lucas&cursor=0)  |   |
 
 
