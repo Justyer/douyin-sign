@@ -41,14 +41,14 @@ curl -X "POST" "https://crawldata.app/api/douyin/v2/sign" \
 | | 2.0后 as、mas版本  | 2.0前 as、cp版本 |
 | ------------- | ------------- | ------------- |
 | 首页动态  | [/v2/feed](https://crawldata.app/api/douyin/v2/feed)  | [/v1/feed](https://crawldata.app/api/douyin/v1/feed)  |
-| 视频列表  | [/v2/aweme/post?user_id=83774364341](https://crawldata.app/api/douyin/v2/aweme/post?user_id=83774364341&max_cursor=0&count=20)  | [/v1/aweme/post?user_id=83774364341](https://crawldata.app/api/douyin/v1/aweme/post?user_id=83774364341&max_cursor=0&count=20)  |
-| 喜欢列表  | [/v2/aweme/favorite?user_id=83774364341](https://crawldata.app/api/douyin/v2/aweme/favorite?user_id=83774364341&max_cursor=0&count=20)  | [/v1/aweme/favorite?user_id=83774364341](https://crawldata.app/api/douyin/v1/aweme/favorite?user_id=83774364341&max_cursor=0&count=20)  |
-| 个人信息  | [/v2/user?user_id=83774364341](https://crawldata.app/api/douyin/v2/user?user_id=83774364341)  | [/v1/user?user_id=83774364341](https://crawldata.app/api/douyin/v1/user?user_id=83774364341)|
-| 关注列表  | [/v2/user/following/list?user_id=83774364341&max_time=1541202996](https://crawldata.app/api/douyin/v2/user/following/list?user_id=83774364341&max_time=1541202996)  | [/v1/user/following/list?user_id=83774364341](https://crawldata.app/api/douyin/v1/user/following/list?user_id=83774364341&max_time=1541202996)  |
-| 粉丝列表  | [/v2/user/follower/list?user_id=83774364341&max_time=1541473941](https://crawldata.app/api/douyin/v2/user/follower/list?user_id=83774364341&max_time=1541473941)  | [/v1/user/follower/list?user_id=83774364341](https://crawldata.app/api/douyin/v1/user/follower/list?user_id=83774364341&max_time=1541473941)  |
-| 视频评论  | [/v2/comment/list?aweme_id=6615981222587796743](https://crawldata.app/api/douyin/v2/comment/list?aweme_id=6615981222587796743&cursor=0)  | [/v1/comment/list?aweme_id=6615981222587796743](https://crawldata.app/api/douyin/v1/comment/list?aweme_id=6615981222587796743&cursor=0)  |
-| 商品橱窗  | [/v2/user/promotions?user_id=93712507975](https://crawldata.app/api/douyin/v2/user/promotions?user_id=93712507975&cursor=0)  |   |
-| 直播列表  | [/v2/room/feed?cursor=0](https://crawldata.app/api/douyin/v2/room/feed?cursor=0)  |   |
+| 视频列表  | [/v2/aweme/post](https://crawldata.app/api/douyin/v2/aweme/post?user_id=83774364341&max_cursor=0&count=20)  | [/v1/aweme/post](https://crawldata.app/api/douyin/v1/aweme/post?user_id=83774364341&max_cursor=0&count=20)  |
+| 喜欢列表  | [/v2/aweme/favorite](https://crawldata.app/api/douyin/v2/aweme/favorite?user_id=83774364341&max_cursor=0&count=20)  | [/v1/aweme/favorite](https://crawldata.app/api/douyin/v1/aweme/favorite?user_id=83774364341&max_cursor=0&count=20)  |
+| 个人信息  | [/v2/user](https://crawldata.app/api/douyin/v2/user?user_id=83774364341)  | [/v1/user](https://crawldata.app/api/douyin/v1/user?user_id=83774364341)|
+| 关注列表  | [/v2/user/following/list](https://crawldata.app/api/douyin/v2/user/following/list?user_id=83774364341&max_time=1541202996)  | [/v1/user/following/list](https://crawldata.app/api/douyin/v1/user/following/list?user_id=83774364341&max_time=1541202996)  |
+| 粉丝列表  | [/v2/user/follower/list](https://crawldata.app/api/douyin/v2/user/follower/list?user_id=83774364341&max_time=1541473941)  | [/v1/user/follower/list](https://crawldata.app/api/douyin/v1/user/follower/list?user_id=83774364341&max_time=1541473941)  |
+| 视频评论  | [/v2/comment/list](https://crawldata.app/api/douyin/v2/comment/list?aweme_id=6615981222587796743&cursor=0)  | [/v1/comment/list](https://crawldata.app/api/douyin/v1/comment/list?aweme_id=6615981222587796743&cursor=0)  |
+| 商品橱窗  | [/v2/user/promotions](https://crawldata.app/api/douyin/v2/user/promotions?user_id=93712507975&cursor=0)  |   |
+| 直播列表  | [/v2/room/feed](https://crawldata.app/api/douyin/v2/room/feed?cursor=0)  |   |
 | 获取广告  | [获取广告代码演示](https://github.com/CrawlData/douyin-ads)  |   |
 
 
