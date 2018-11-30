@@ -38,7 +38,7 @@ curl -X "POST" "https://crawldata.app/api/douyin/v2/sign" \
 
 #### 3. 常用API演示：
 
-| | 2.0后 as、mas版本  | 2.0前 as、cp版本 |
+| | 新版 as、mas版本  | 旧版 as、cp版本 |
 | ------------- | ------------- | ------------- |
 | 首页动态  | [/v2/feed](https://crawldata.app/api/douyin/v2/feed)  | [/v1/feed](https://crawldata.app/api/douyin/v1/feed)  |
 | 视频列表  | [/v2/aweme/post](https://crawldata.app/api/douyin/v2/aweme/post?user_id=83774364341&max_cursor=0&count=20)  | [/v1/aweme/post](https://crawldata.app/api/douyin/v1/aweme/post?user_id=83774364341&max_cursor=0&count=20)  |
