@@ -59,6 +59,7 @@ curl -X "POST" "https://crawldata.app/api/douyin/v2/sign" \
 | 热搜话题| [v2/hotsearch/word](https://crawldata.app/api/douyin/v2/hotsearch/word)  |   |
 | 热搜视频| [v2/hotsearch/aweme](https://crawldata.app/api/douyin/v2/hotsearch/aweme)  |   |
 | 热搜正能量| [v2/hotsearch/energy](https://crawldata.app/api/douyin/v2/hotsearch/energy)  |   |
+| 更多...| 不赘述，请使用签名接口手动测试  |   |
 
 #### 4. 获取首页广告数据演示
 
