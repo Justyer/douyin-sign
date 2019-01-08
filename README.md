@@ -56,6 +56,9 @@ curl -X "POST" "https://crawldata.app/api/douyin/v2/sign" \
 | 搜索音乐| [v2/search/music](https://crawldata.app/api/douyin/v2/search/music?keyword=lucas&cursor=0)  | [v1/search/music](https://crawldata.app/api/douyin/v1/search/music?keyword=lucas&cursor=0) |
 | 搜索话题| [v2/search/challenge](https://crawldata.app/api/douyin/v2/search/challenge?keyword=lucas&cursor=0)  | [v1/search/challenge](https://crawldata.app/api/douyin/v1/search/challenge?keyword=lucas&cursor=0) |
 | 搜索视频| [v2/search/item](https://crawldata.app/api/douyin/v2/search/item?keyword=lucas&cursor=0)  |   |
+| 热搜话题| [v2/hotsearch/word](https://crawldata.app/api/douyin/v2/hotsearch/word)  |   |
+| 热搜视频| [v2/hotsearch/aweme](https://crawldata.app/api/douyin/v2/hotsearch/aweme)  |   |
+| 热搜正能量| [v2/hotsearch/energy](https://crawldata.app/api/douyin/v2/hotsearch/energy)  |   |
 
 #### 4. 获取首页广告数据演示
 
